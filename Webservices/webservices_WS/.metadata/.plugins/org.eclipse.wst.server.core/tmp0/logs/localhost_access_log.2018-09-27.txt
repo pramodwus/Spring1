@@ -1,0 +1,11 @@
+127.0.0.1 - - [27/Sep/2018:00:22:22 -0700] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:22:29 -0700] "GET /ProviderApp/WEB-INF/classes/comm/app/Message.java HTTP/1.1" 404 1046
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:23:20 -0700] "GET /ProviderApp/rest/msg HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:23:21 -0700] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:23:53 -0700] "GET /ProviderApp/rest/msg HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:24:05 -0700] "GET /ProviderApp/rest/msg HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:24:16 -0700] "GET /ProviderApp/WEB-INF/classes/comm/app/Message.java HTTP/1.1" 404 1046
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:24:17 -0700] "GET /ProviderApp/WEB-INF/classes/comm/app/Message.java HTTP/1.1" 404 1046
+127.0.0.1 - - [27/Sep/2018:00:38:16 -0700] "GET /ProviderApp/rest/msg HTTP/1.1" 200 21
+127.0.0.1 - - [27/Sep/2018:00:38:45 -0700] "GET /ProviderApp/rest/msg HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:00:41:21 -0700] "GET /ProviderApp/rest/msg HTTP/1.1" 200 21

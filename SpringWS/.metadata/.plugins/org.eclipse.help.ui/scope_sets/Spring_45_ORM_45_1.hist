@@ -1,0 +1,6 @@
+#Fri Aug 31 10:58:56 PDT 2018
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=Spring-ORM-1

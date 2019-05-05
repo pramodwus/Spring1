@@ -1,0 +1,38 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:aop="http://www.springframework.org/schema/aop"
+ xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+     http://www.springframework.org/schema/aop
+     http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+      
+     <!-- business class configuration  -->
+     <bean id="productImpl" class="pack1.business.ProductImpl"/>
+     <!-- aspect class configuration -->
+      <bean id="ma" class="pack1.aspect.MyAdvices"/>
+      
+      <!-- schema based aop configuration -->
+      <aop:config>
+      <aop:aspect ref="ma">
+      <aop:pointcut id="pt1"
+      expression="execution(* pack1.business.Product.add(..))"/>
+      
+      <aop:pointcut id="pt2"
+      expression="execution(* pack1.business.Product.multiply(..))"/>
+      
+      <aop:before pointcut-ref="pt1" method="before" />
+      <aop:after-returning pointcut-ref="pt2"
+      method="afterReturning"
+      returning=  "result" />
+     
+     
+      </aop:aspect>
+      </aop:config>
+      <aop:aspectj-autoproxy/>
+      </beans>
+      
+      
+      
+      
+      
+      

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;pack1&apos; to &apos;pack1.aspect&apos;&#x0D;&#x0A;- Original project: &apos;DeclerativeAop&apos;&#x0D;&#x0A;- Original element: &apos;DeclerativeAop/src/main/java/pack1&apos;&#x0D;&#x0A;- Renamed element: &apos;DeclerativeAop/src/main/java/pack1.aspect&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;pack1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;pack1" name="pack1.aspect" qualified="false" references="true" stamp="1534613399615" textual="false" version="1.0"/>
+</session>
